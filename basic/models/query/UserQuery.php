@@ -1,13 +1,13 @@
 <?php
 
-namespace app\models;
+namespace app\models\query;
 
 /**
- * This is the ActiveQuery class for [[Zayavka]].
+ * This is the ActiveQuery class for [[\app\models\User]].
  *
- * @see Zayavka
+ * @see \app\models\User
  */
-class ZayavkaQuery extends \yii\db\ActiveQuery
+class UserQuery extends \yii\db\ActiveQuery
 {
     /*public function active()
     {
@@ -16,7 +16,7 @@ class ZayavkaQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return Zayavka[]|array
+     * @return \app\models\User[]|array
      */
     public function all($db = null)
     {
@@ -25,7 +25,7 @@ class ZayavkaQuery extends \yii\db\ActiveQuery
 
     /**
      * @inheritdoc
-     * @return Zayavka|array|null
+     * @return \app\models\User|array|null
      */
     public function one($db = null)
     {
